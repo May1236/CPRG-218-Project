@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrfect Life - Cat Blog</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header + Responsive Navigation -->
+    <header>
+        <h1> MeowMemo </h1>
+        <div class="navWrapper">
+            <button id="navBtn">&#9776;</button>
+    
+        <nav id="navMenu"> 
+            <ul>
+                <li> 
+                    <a href="index.html">Homepage</a>
+                </li>
+                <li> 
+                    <a href="#services">My Cats</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li> 
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner + Hero ContentContent -->
+    <section id="home" class="heroBanner">
+        <img src="asset/zooey-li-ZfUjjOCoJo8-unsplash.jpg" alt="Black Cat" class="hero-image"/>
+        <div class="hero-content">
+            <h1>A Cozy Corner for Cat Lovers</h1>
+            <p>MeowMemo – where whiskers rule and paws warm hearts.</p>
+            <a href="#services" class="btn-hero">Explore My Cats</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="intro" class="container">
+        <h2>Welcome to MeowMemo!</h2>
+        <p>
+            Hello fellow cat lovers! This blog is all about our fluffy overlords. If you love cats as much as I do, you are in the right place!
+        </p>
+        <div class="videoContainer">
+            <iframe width="736" height="414" src="https://www.youtube.com/embed/35fRPc38824" 
+            title="Cute Cat Cash&#39;s meow talk COMPILATION 01 | meow__cash" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </section>
+
+        <!-- Card Section: My Cats -->
+        <section id="services" class="container">
+            <h2>Meet My Fluffy Friends</h2>
+            <div class="flex-container">
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1615678815958-5910c6811c25?q=80" alt="Luna the cat">
+                    <div class="card-info">
+                        <h3>Luna</h3>
+                        <p><strong>Breed:</strong> Tabby Brown Hair</p>
+                        <p><strong>Age:</strong> 2 years</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://i.redd.it/efddg3qj82071.jpg" alt="Simba the cat">
+                    <div class="card-info">
+                        <h3>Simba</h3>
+                        <p><strong>Breed:</strong> Maine Coon</p>
+                        <p><strong>Age:</strong> 5 years</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://static.scientificamerican.com/sciam/cache/file/825ED237-152D-4AA0-AB74012B103ECD6C_source.png?w=1200" alt="Whiskers the cat">
+                    <div class="card-info">
+                        <h3>Whiskers</h3>
+                        <p><strong>Breed:</strong> British Longhair</p>
+                        <p><strong>Age:</strong> 1.5 years</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+
+    <!-- Random Cat-->
+    <section id="randomCat" class="container">
+        <h2>Get a Random Cat</h2>
+        <div id="catResult" style="margin-top: 20px;">
+            <!--Cat image will appear here-->
+        </div>
+        <button id="catBtn" class="btn-hero">Show me a cat!</button>
+    </section>
+
+    <section id="contact" class="container">
+            <h2><span style="margin-right: 8px;">📫</span>Contact Us</h2>
+            <div>
+                <p> <span style="color: darkgreen;">If you want to talk about cats? Send me a message below!</span></p>
+                <div>
+                        <p>Email: <a href="mailto: catlovers@phuongtran.com"> catlovers@phuongtran.com</a></p>
+                        <p>Tel: <a href="123456809">123456809</a></p>
+                        <p>Address: 123 Abc Street SW, T2E R34, Calgary, AB, Canada</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+        <footer class="site-footer">
+            <p>Follow us for more cat content!</p>
+            <p>Contact us at <a href="mailto:catlovers@phuongtran.com">catlovers@phuongtran.com</a></p>
+            <p>&copy; 2025 Purrfect Life - All rights reserved.</p>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>
