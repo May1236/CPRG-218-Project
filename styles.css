@@ -60,6 +60,10 @@ nav {
     display: flex;
 }
 
+#navMenu {
+  white-space: nowrap;
+}
+
 nav ul {
     display: flex;
     list-style: none; 
